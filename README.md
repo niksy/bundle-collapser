@@ -6,6 +6,8 @@ Extended version of [bundle-collapser][bundle-collapser], providing support for 
 
 For all original information regarding this package, visit [bundle-collapser][bundle-collapser] homepage.
 
+CLI usage is not available for now.
+
 ## Installation
 
 ```sh
