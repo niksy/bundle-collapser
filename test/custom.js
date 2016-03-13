@@ -6,8 +6,10 @@ var vm = require('vm');
 var unpack = require('browser-unpack');
 var expected = require('./custom/expected.json');
 
-var defs = [
-    {
+test('custom definition', function (t) {
+    t.plan(1 + expected.length);
+
+    var def = {
         replacement: '%s',
         value: function (node) {
             return node.value;
@@ -26,14 +28,10 @@ var defs = [
                 && parent.property.type === 'Identifier'
             ;
         }
-    }
-];
-
-test('custom', function (t) {
-    t.plan(1 + expected.length);
+    };
 
     var src = fs.readFileSync(__dirname + '/custom/bundle.js', 'utf8');
-    collapse(src, { custom: defs }).pipe(concat(function (body) {
+    collapse(src, { custom: [def] }).pipe(concat(function (body) {
         vm.runInNewContext(body, { console: { log: log } });
         function log (msg) { t.equal(msg, 300) }
 

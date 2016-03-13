@@ -1,10 +1,10 @@
 {
-  "name": "bundle-collapser",
-  "version": "1.2.1",
-  "description": "convert bundle paths to IDS to save bytes in browserify bundles",
+  "name": "bundle-collapser-extended",
+  "version": "0.0.0",
+  "description": "Extended version of bundle-collapser, providing support for custom collapsing and presets.",
   "main": "index.js",
   "bin": {
-    "bundle-collapser": "bin/cmd.js"
+    "bundle-collapser-extended": "bin/cmd.js"
   },
   "dependencies": {
     "browser-pack": "^5.0.1",
@@ -20,11 +20,6 @@
   "scripts": {
     "test": "tape test/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/substack/bundle-collapser.git"
-  },
-  "homepage": "https://github.com/substack/bundle-collapser",
   "keywords": [
     "browserify",
     "bundle",
@@ -32,10 +27,18 @@
     "minify",
     "require"
   ],
-  "author": {
-    "email": "mail@substack.net",
-    "name": "James Halliday",
-    "url": "http://substack.net"
+  "license": "MIT",
+  "directories": {
+    "example": "example",
+    "test": "test"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksy/bundle-collapser-extended.git"
+  },
+  "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com/)",
+  "bugs": {
+    "url": "https://github.com/niksy/bundle-collapser-extended/issues"
+  },
+  "homepage": "https://github.com/niksy/bundle-collapser-extended#readme"
 }
