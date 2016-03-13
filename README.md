@@ -39,7 +39,7 @@ MIT, original package by [substack][substack], modifications by Ivan Nikolić
 
 [ci]: https://travis-ci.org/niksy/bundle-collapser-extended
 [ci-img]: https://img.shields.io/travis/niksy/bundle-collapser-extended/extended.svg
-[substack]: [https://github.com/substack]
+[substack]: https://github.com/substack
 [bundle-collapser]: https://github.com/substack/bundle-collapser
 [nunjucksify]: https://github.com/rotundasoftware/nunjucksify
 [browserify-require-async]: https://github.com/niksy/browserify-require-async
