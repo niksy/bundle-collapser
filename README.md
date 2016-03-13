@@ -35,7 +35,7 @@ If it’s not defined as string, it will use replacement object in the same form
 
 ## License
 
-MIT, original package by [substack][], modifications by Ivan Nikolić
+MIT, original package by [substack][substack], modifications by Ivan Nikolić
 
 [ci]: https://travis-ci.org/niksy/bundle-collapser-extended
 [ci-img]: https://img.shields.io/travis/niksy/bundle-collapser-extended/extended.svg
