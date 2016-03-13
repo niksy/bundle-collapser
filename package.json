@@ -1,6 +1,6 @@
 {
   "name": "bundle-collapser-extended",
-  "version": "0.0.0",
+  "version": "1.0.0-0",
   "description": "Extended version of bundle-collapser, providing support for custom collapsing and presets.",
   "main": "index.js",
   "bin": {
